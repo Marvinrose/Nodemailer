@@ -18,19 +18,19 @@
     />
     <style>
       .email{ background-color: black; color: white; padding: 30px; text-align:
-      center; border: 2px dashed snow; } h1{ color: white; font-size: 30px;
+      center; border: 2px solid white; } h1{ color: white; font-size: 30px;
       margin-bottom: 15px; font-family: 'Playfair Display', serif; } p{
       font-size: 17px; color: white; font-family: 'Poppins', sans-serif;
       margin-bottom: 15px; } a{ background-color: blueviolet; padding: 15px
       25px; font-weight: bold; color: white; text-decoration: none;
-      border-radius: 25px; } .btn-div{ margin-bottom: 30px; margin-top: 20px;
+      border-radius: 25px; } .btn-div{ margin-bottom: 30px;
       color: white; } a:hover{ background-color: blueviolet; color: white;
       transition: all 2ms ease-in-out; }
 
     </style>
   </head>
   <body>
-    <div class="email">
+    <div class="email rounded">
       <h1>{{title}}</h1>
       <img
         style="width:250px;"
@@ -39,7 +39,7 @@
         alt="image"
       />
       <p>{{text}}</p>
-      <div class="btn-div pt-5">
+      <div class="btn-div mt-5">
         <a href="{{href}}" class="btn2 txt-white">View My Portfolio</a>
       </div>
 
